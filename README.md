@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/user-attachments/assets/47d28677-d05f-4cf7-9158-4bb4042d4665" width="15%"></p>
 
-# CapacitiKeys
+# Capaciti-Keys
 An Alfred workflow: Dinky doodads to (maybe) improve your Capacities.io experience.
 
 ## Prerequisites
@@ -9,7 +9,7 @@ An Alfred workflow: Dinky doodads to (maybe) improve your Capacities.io experien
 - Your API token. Generate one in Capacities in Settings → Capacities API. A Pro or Believer plan is required for API access.
 
 ## Setup
-1. Download the latest [.alfredworkflow release](https://github.com/matchadolly/CapacitiKeys/releases).
+1. Download the latest [.alfredworkflow release](https://github.com/matchadolly/capaciti-keys/releases).
 2. Double click the downloaded file. It should open directly in Alfred.
 3. Configure the workflow by filling in the values listed below, then click Install.
     1. Required:
@@ -25,11 +25,11 @@ An Alfred workflow: Dinky doodads to (maybe) improve your Capacities.io experien
 5. You are ALL SET!!
 
 ## Usage
-### [Search Capacities](https://github.com/matchadolly/CapacitiKeys/blob/main/Search%20Capacities)
+### [Search Capacities](https://github.com/matchadolly/capaciti-keys/blob/main/Search%20Capacities)
 Type your chosen keyword followed by your search query, e.g. "cs python". The matching objects will be displayed, with the object type listed underneath. Click on an object to open it in the app or browser, depending on what you choose in the config.
-### [Add weblink](https://github.com/matchadolly/CapacitiKeys/blob/main/Add%20weblink)
+### [Add weblink](https://github.com/matchadolly/capaciti-keys/blob/main/Add%20weblink)
 Type your chosen keyword followed by the weblink, e.g. "cw https://github.com/". Press enter to send the weblink to Capacities. If no input is provided, the workflow will attempt to get the URL of the front browser; if a weblink still cannot be obtained, the workflow will attempt to get the weblink from your clipboard. Note that your input or your clipboard, if you did not provide an input, will have to contain just the URL and nothing else for the workflow to work.
-### [Set object types (cset)](https://github.com/matchadolly/CapacitiKeys/blob/main/Set%20object%20types)
+### [Set object types (cset)](https://github.com/matchadolly/capaciti-keys/blob/main/Set%20object%20types)
 This just has to be run once when the workflow is first installed, or when you create a new object type. As mentioned above: Open the Alfred launcher and type in the keyword "cset". Select the action "Set object types" and wait until "Object types loaded" shows up. If search results have an object type with a random string of numbers and letters, it's probably because you haven't run this yet.
 
 ## Credits
